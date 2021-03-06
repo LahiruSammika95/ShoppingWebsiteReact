@@ -1,0 +1,82 @@
+section.subscribe{
+    background:var(--primary);
+    padding:0 50px;
+  }
+  section.subscribe .container > div:first-child{
+      justify-content: center;
+      align-items: center;
+  }
+  section.subscribe .container > div:first-child img{
+    width:90%;
+  }
+  section.subscribe .container div:first-child{
+    flex:1;
+  }
+  section.subscribe .container div:last-child{
+    flex:1;
+  }
+  
+  section.subscribe h1{
+    font-family:"Raleway-bold";
+    font-size: 1.5rem;
+    margin-bottom:1.5rem;
+  }
+  section.subscribe p{
+    font-family:"Raleway-medium"; 
+    font-size: 1rem;
+    margin-bottom:1.5rem;
+    line-height: 1.5;
+  }
+  section.subscribe .input-wrap{
+    background:var(--heaven);
+    display:flex;
+    padding:0.3rem;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+  }
+  section.subscribe .input-wrap input{
+    width:100%;
+    border:none;
+    padding: 0 1rem;
+    font-size:1rem;
+  }
+  section.subscribe .input-wrap input:focus{
+    outline:none;
+  }
+.subscribe .input-wrap button{
+    padding:0.8rem 2rem;
+    border:none;
+    background:var(--primary);
+    color:var(--pure);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size:1rem;
+    cursor:pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    outline:none;
+  }
+  section.subscribe .input-wrap button:hover{
+    background:var(--secondary);
+  }
+  @media (max-width:992px){
+
+    section.subscribe .container{
+      
+      flex-direction: column;
+      padding-bottom: 40px;
+      }
+  }
+  
+
+  
+  

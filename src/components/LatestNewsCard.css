@@ -1,0 +1,30 @@
+.latest-news .article-wrapper .card {
+    margin-right:2rem;
+    background:var(--heaven);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    max-width: 550px;
+  }
+ .card img{
+    width:100%;
+  }
+.card .card-content{
+    padding:2rem;
+  }
+.card .card-content .post-meta{
+    margin-bottom: 1rem;
+  }
+   .card .card-content .post-meta .comment-count{
+    margin-left:1rem;
+  }
+.card .card-content h2{
+    font-family: "Raleway-bold";
+    font-size: 1.3rem;
+    margin-bottom:1rem;
+  }
+ .card .card-content p{
+    line-height: 1.6;
+  }

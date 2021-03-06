@@ -1,0 +1,23 @@
+section.our-services{
+    background:var(--light);
+    position:relative;
+    z-index:0;
+  }
+  
+  section.our-services .card-wrapper{
+   
+    margin-top:8rem;
+ align-items: center;
+ justify-content: center;
+  }
+  @media (max-width:768px){
+
+  
+    section.our-services .card-wrapper{
+        flex-direction:column;
+    }
+    section.our-services .card-wrapper .service-card{
+        margin-bottom:6rem;
+    }
+   
+  }

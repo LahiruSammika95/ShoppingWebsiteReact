@@ -1,0 +1,67 @@
+header.hero{
+    height:600px;
+    background-image:url(../images/hero.png);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    overflow:hidden;
+  }
+  header.hero .container{
+    position: relative;
+  }
+  header.hero .welcome{
+    margin-bottom:0.25rem;
+  }
+  header.hero .welcome span{
+    font-family:"Raleway-bold";
+    color:var(--secondary);
+    margin-right:0.75rem;
+  
+  }
+  header.hero h1{
+    font-family:"Raleway-extrabold";
+    color:var(--secondary);
+    font-size: 2.5rem;
+    margin-bottom:0.75rem;
+  }
+  header.hero h1 span{
+    color:var(--primary);
+  }
+  header.hero p{
+    font-family: "Raleway-medium";
+    width:50%;
+    line-height:1.5;
+    margin-bottom:1rem;
+  }
+  header.hero button:first-child{
+    margin-right:0.50rem;
+  }
+  
+  header.hero .hero-image{
+    position:absolute;
+    top:-40px;
+    right:35px;
+  }
+  @media (max-width:992px){
+
+  header.topbar, nav{
+      display:none;
+  }
+
+  header.hero {
+      margin-top:-3rem;
+  }
+  header.hero .hero-image{
+  
+  display: none;
+  }
+
+} 
+
+
+@media( max-width:400px){
+    header.hero .welcome img{
+        display: none;
+      }
+
+ 
+} 

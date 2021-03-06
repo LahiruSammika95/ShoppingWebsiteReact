@@ -1,0 +1,33 @@
+.service-card{
+    background:var(--heaven);
+    text-align: center;
+    padding:2rem;
+    padding-top:4rem;
+   margin: 0 2rem;
+   max-width: 400px;
+    position: relative;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+.service-card .icon{
+    position: absolute;
+    top:-45px;
+    left:50%;
+    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+  } 
+.service-card h2{
+    font-family: "Raleway-bold";
+    font-size: 1.3rem;
+    margin-bottom:1rem;
+  }
+.service-card p{
+    line-height: 1.6;
+    margin-bottom:1rem;
+  }

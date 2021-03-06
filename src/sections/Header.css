@@ -1,0 +1,56 @@
+header.topbar{
+    background:var(--secondary);
+    color:var(--pure);
+    font-family:"Raleway-semibold";
+    padding:0.75rem 0;
+}
+header.topbar .auth > div a{
+    color:var(--pure);
+    text-decoration: none;
+}
+header.topbar .icons a{
+  margin-right:0.6rem;
+}
+header.topbar .auth .divider{
+    padding:0 1rem;
+}
+header.topbar .auth > div img{
+    margin-right:0.35rem;
+}
+nav .top{
+    padding:1.5rem 0;
+}
+nav .top .contact h5,  nav .top .time h5{
+    font-family:"Raleway-black";
+    margin-bottom:0.25rem;
+}
+nav .top .contact h6, nav .top .time h6{
+  font-family:"Raleway-medium";
+  letter-spacing: 0.055rem;
+  font-size:0.75rem;
+  color:var(--ternary);
+}
+nav .top .contact img, nav .top .time img{
+  margin-right:1rem;
+}
+
+nav .navbar a{
+  text-decoration:none;
+  color:var(--secondary);
+  font-family:"Raleway-semibold";
+  font-size:1rem;
+  padding:1rem 1.5rem;
+  transition:all .3s ease;
+  -webkit-transition:all .3s ease;
+  -moz-transition:all .3s ease;
+  -ms-transition:all .3s ease;
+  -o-transition:all .3s ease;
+}
+nav .navbar a.active{
+  background:var(--primary);
+  color:var(--pure);
+}
+nav .navbar a:hover{
+  background:var(--primary);
+  color:var(--pure); 
+}

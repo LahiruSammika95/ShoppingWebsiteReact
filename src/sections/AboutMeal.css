@@ -1,0 +1,39 @@
+section.about-meal{
+    padding:20px 20px;
+}
+section.about-meal img{
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  section.about-meal{
+  padding:10 25px 0 25px;
+  }
+  section.about-meal h2{
+    font-family: "Raleway-bold";
+    font-size:1.4rem;
+    color:var(--secondary);
+    margin-bottom:2rem;
+    line-height:1.3;
+  }
+  section.about-meal p{
+    line-height: 1.7;
+    margin-bottom:4rem;
+  }
+  @media (max-width:992px){
+    .about-meal .about-meal-wrap img{
+        width:100%;
+        margin-bottom: 2rem;
+    }
+    .about-meal .about-meal-wrap{
+        flex-direction: column;
+    }
+  .about-meal .about-meal-wrap .text-content{
+      text-align: center;
+    }
+} 
+
+
+

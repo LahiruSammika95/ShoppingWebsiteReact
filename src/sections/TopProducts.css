@@ -1,0 +1,113 @@
+section.top-products{
+    background:var(--light);
+
+  }
+  section.top-products .food-slider .food-card{
+    background:var(--heaven);
+    padding:1.5rem 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    max-width: 320px;
+  }
+  section.top-products .food-slider .food-card .product-image img{
+    width:80%;
+    height:200px;
+    object-fit:contain;
+    padding-bottom:1rem;
+  }
+ 
+  section.top-products .food-slider .food-card h2{
+    font-family:"Raleway-bold";
+    font-size:1.3rem;
+    margin-bottom:0.25rem;
+  }
+
+  section.top-products .food-slider .food-card .stars{
+    margin-bottom:0.5rem;
+  }
+  section.top-products .food-slider .food-card .stars img{
+    margin-right:0.25rem;
+  }
+  section.top-products .food-slider .food-card .price{
+    font-family:"Raleway-medium";
+    color:var(--danger);
+    margin-bottom: 1rem;
+  }
+  section.top-products .food-slider .food-card button{
+    font-family:"Raleway-medium";
+    color:var(--secondary);
+    background:var(--heaven);
+    border:2px solid var(--primary);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    display:flex;
+    align-items: center;
+    width:50%;
+    font-size:1rem;
+    cursor: pointer;
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+    -ms-transition:all .3s ease;
+    -o-transition:all .3s ease;
+  }
+  section.top-products .food-slider .food-card button:hover{
+    background:var(--primary);
+    color:var(--heaven);
+  }
+  section.top-products .slider-btn{
+    width: 30px;
+    height:30px;
+    border: none;
+    background:var(--primary);
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -ms-border-radius:4px;
+    -o-border-radius:4px;
+    cursor:pointer;
+    outline:none;
+  }
+  
+  .prev-btn{
+    position:absolute;
+    top:46%;
+    left:-3rem;
+    z-index: 1;
+  }
+  .next-btn{
+    position:absolute;
+    top:46%;
+    right:-3rem;
+    z-index: 1;
+  }
+  section.top-products .slider{
+    position: relative;
+  }
+  section.top-products .btn-wrapper{
+    margin-top:2rem;
+  }
+
+  .slick-slide{
+    margin:0 27px;
+  }
+  .slick-list{
+    margin:0 -27px;
+  }
+  
+  .slick-track{
+    padding:1rem 0;
+  }
+  @media (max-width:992px){
+    section.top-products .food-slider
+    {
+        align-items: center;
+        flex-direction: column;
+    }
+  }
